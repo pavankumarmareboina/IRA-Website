@@ -1,0 +1,51 @@
+{
+  "navLinks": [
+    { "name": "HOME", "path": "/" },
+    { "name": "ADMISSIONS", "path": "/admissions" },
+    { "name": "PROGRAMS", "path": "/programs" },
+    { "name": "TUTION FEE", "path": "/tutionfee" },
+    { "name": "ABOUT", "path": "/about" },
+    { "name": "MANAGEMENT", "path": "/management" }
+  ],
+  "about": {
+    "title": "IRA Skill Varsity",
+    "description": "Educational and career development platform...",
+    "mission": "To nurture learners and equip them with tools to succeed."
+  },
+  "leadership": [
+    { "name": "Pasupuleti Saraswathi", "role": "Founder & Director", "bio": "Strategic force behind IRA’s vision..." },
+    { "name": "Aneel Laxman Ganji", "role": "Director & Creative Strategist", "bio": "20+ years in filmmaking and branding..." },
+    { "name": "Natarajan Kandaswamy", "role": "Program & Operations Lead", "bio": "Worked with UNICEF and SOS Villages..." }
+  ],
+  "programs": {
+    "focusAreas": [
+      "Spoken English and Workplace Communication",
+      "Digital Literacy and Productivity Tools",
+      "GST, Tally, and Accounting Basics",
+      "Data Analytics and Dashboard Tools"
+    ],
+    "highlights": [
+      { "title": "Tirupati Employment Drive (2023)", "description": "Trained 2300+ students, 300+ placements." },
+      { "title": "Mega Drive at JNTU Kakinada (2024)", "description": "14,000+ engaged, 1360 placements." }
+    ]
+  },
+  "impact": {
+    "studentsTrained": 12000,
+    "placements": 1000,
+    "institutions": 100,
+    "regions": ["AP", "Telangana", "Karnataka", "TN"]
+  },
+  "playschool": {
+    "name": "The Little Hoots Playschool",
+    "features": [
+      "Child-centered, play-based curriculum",
+      "Life skills: hygiene, independence, sharing",
+      "Eco-friendly practices: gardening, waste sorting"
+    ]
+  },
+  "contact": {
+    "email": "info@iraskillvarsity.org",
+    "phone": "+91 9876543210",
+    "address": "Dilsukhnagar, Hyderabad, India"
+  }
+}
