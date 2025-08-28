@@ -13,9 +13,21 @@
     "mission": "To nurture learners and equip them with tools to succeed."
   },
   "leadership": [
-    { "name": "Pasupuleti Saraswathi", "role": "Founder & Director", "bio": "Strategic force behind IRA’s vision..." },
-    { "name": "Aneel Laxman Ganji", "role": "Director & Creative Strategist", "bio": "20+ years in filmmaking and branding..." },
-    { "name": "Natarajan Kandaswamy", "role": "Program & Operations Lead", "bio": "Worked with UNICEF and SOS Villages..." }
+    {
+      "name": "Pasupuleti Saraswathi",
+      "role": "Founder & Director",
+      "bio": "Strategic force behind IRA’s vision..."
+    },
+    {
+      "name": "Aneel Laxman Ganji",
+      "role": "Director & Creative Strategist",
+      "bio": "20+ years in filmmaking and branding..."
+    },
+    {
+      "name": "Natarajan Kandaswamy",
+      "role": "Program & Operations Lead",
+      "bio": "Worked with UNICEF and SOS Villages..."
+    }
   ],
   "programs": {
     "focusAreas": [
@@ -25,8 +37,14 @@
       "Data Analytics and Dashboard Tools"
     ],
     "highlights": [
-      { "title": "Tirupati Employment Drive (2023)", "description": "Trained 2300+ students, 300+ placements." },
-      { "title": "Mega Drive at JNTU Kakinada (2024)", "description": "14,000+ engaged, 1360 placements." }
+      {
+        "title": "Tirupati Employment Drive (2023)",
+        "description": "Trained 2300+ students, 300+ placements."
+      },
+      {
+        "title": "Mega Drive at JNTU Kakinada (2024)",
+        "description": "14,000+ engaged, 1360 placements."
+      }
     ]
   },
   "impact": {
@@ -47,5 +65,39 @@
     "email": "info@iraskillvarsity.org",
     "phone": "+91 9876543210",
     "address": "Dilsukhnagar, Hyderabad, India"
-  }
+  },
+  "IRA_learning": [
+    {
+      "learn1PNG": "../assets/learn1.webp",
+      "step1": "Step 1",
+      "learn": "Learn",
+      "ProcessLearn": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quia quibusdam fugiat possimus, dicta sunt alias tenetur vitae non voluptate.",
+      "learnMore": "Learn More",
+      "learn2PNG": "../assets/learn1.webp"
+    },
+    {
+      "learn1PNG": "../assets/learn2.webp",
+      "step1": "Step 2",
+      "learn": "Learn",
+      "ProcessLearn": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quia quibusdam fugiat possimus, dicta sunt alias tenetur vitae non voluptate.",
+      "learnMore": "Learn More",
+      "learn2PNG": "../assets/learn1.webp"
+    },
+    {
+      "learn1PNG": "../assets/learn3.webp",
+      "step1": "Step 3",
+      "learn": "Learn",
+      "ProcessLearn": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quia quibusdam fugiat possimus, dicta sunt alias tenetur vitae non voluptate.",
+      "learnMore": "Learn More",
+      "learn2PNG": "../assets/learn1.webp"
+    },
+    {
+      "learn1PNG": "../assets/learn4.webp",
+      "step1": "Step 4",
+      "learn": "Learn",
+      "ProcessLearn": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quia quibusdam fugiat possimus, dicta sunt alias tenetur vitae non voluptate.",
+      "learnMore": "Learn More",
+      "learn2PNG": "../assets/learn1.webp"
+    }
+  ]
 }

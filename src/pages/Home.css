@@ -1,0 +1,66 @@
+.homeContainer {
+  align-content: center;
+  /* border: 1px solid red; */
+  height: auto;
+  width: 100%;
+  background-color: black;
+  padding: 0 2%;
+}
+
+.homepageCardSection {
+  height: auto;
+  width: 100%;
+  /* align-content: center; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid red;
+  flex-direction: column;
+  gap: 2%;
+  margin: 5% 0;
+}
+
+.secondaryHeading {
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.HomeCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.homecard{
+    padding: 15px 15px 10px 15px;
+    /* border: 1px solid red; */
+}
+
+.homebutton{
+    margin-top: 10px;
+}
+
+.achievementsContainer{
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+    gap: 1rem;
+}
+
+.achievementsSubContainer{
+    padding: 10px;
+}
+
+.achievementsSubContainer h3{
+    margin-bottom: 20px;
+}

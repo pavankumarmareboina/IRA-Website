@@ -1,54 +1,56 @@
-.navbar{
-    height: 100px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    padding: 0 5%;
-    /* position: sticky; */
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0 5%;
+  border-bottom: 1px solid #8080809f;
+  /* position: sticky; */
 }
 
-.logo{
-    width: 30%;
-    height: 100%;
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
+.logo {
+  width: 30%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 20px;
 }
 
-.logo img{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    object-fit: contain;
-    margin-right: 10px;
+.logo img {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  object-fit: contain;
+  margin-right: 10px;
 }
 
-.logo h1{
-    font-size: 2rem;
-    font-weight: bold;
+.logo h1 {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.navlinks{
-    width: 70%;
-    height: 100%;
-    border: 1px solid yellow;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 2.5rem;
-    font-size: 2.2rex;
-    color: white;
-    font-weight: 500;
+.navlinks {
+  width: 70%;
+  height: 100%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2.5rem;
+  font-size: 2rex;
+  color: white;
+  font-weight: 500;
 }
 
 .navlinks .link {
-    font-weight: 500;
+  font-weight: 500;
 }
