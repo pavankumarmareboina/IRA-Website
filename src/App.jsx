@@ -26,12 +26,12 @@ function App() {
       <div >
         <Navbar />
       </div>
-      <div className="min-h-screen bg-black">
+      <div className=" bg-black">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/admissions" element={<Contact />} />
           <Route path="/programs" element={<Programs />} />
-          <Route path="/impact" element={<Impact />} />
+          <Route path="/tutionfee" element={<Impact />} />
           <Route path="/playschool" element={<Playschool />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
