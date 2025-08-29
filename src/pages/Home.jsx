@@ -8,7 +8,11 @@ import learn2 from "../assets/learn2.webp";
 import learn3 from "../assets/learn3.webp";
 import learn4 from "../assets/learn4.webp";
 import Achievements from "../components/Achievements/Achievements";
-import MagicBento from "../components/MagicBento";
+import ira1 from "../assets/ira1.jpeg";
+import ira2 from "../assets/ira2.jpeg";
+import FAQSection from "../components/FAQSection/FAQSection";
+import FirstHash from "../components/firstHash";
+// import MagicBento from "../components/MagicBento";
 // import SpotlightCard from "../components/ui/SpotlightCard/SpotlightCard";
 
 const imgCollection = [learn1, learn2, learn3, learn4];
@@ -44,11 +48,11 @@ const Home = () => {
           Explore Coaching Training Program
         </h2>
 
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 cards">
           {steps.map((item, idx) => (
             <div
               key={idx}
-              className="flex flex-col bg-neutral-900 border border-neutral-800 rounded-2xl shadow-lg hover:shadow-xl hover:border-green-200 transition-transform duration-300 h-[480px] w-full overflow-hidden p-7"
+              className="flex flex-col  border border-neutral-800 rounded-2xl shadow-lg hover:shadow-xl hover:border-green-200 transition-transform duration-300 h-[480px] w-full overflow-hidden p-7"
             >
               {/* Image top - 40% height */}
               <div className="h-[60%] w-full p-20 flex justify-center items-center">
@@ -86,19 +90,80 @@ const Home = () => {
         <Achievements />
       </section>
       <section className="homepageCardSection">
-        <MagicBento
-          textAutoHide={true}
-          enableStars={true}
-          enableSpotlight={true}
-          enableBorderGlow={true}
-          enableTilt={true}
-          enableMagnetism={true}
-          clickEffect={true}
-          spotlightRadius={300}
-          particleCount={12}
-          glowColor="132, 0, 255"
-        />
+        <div className="highlightsdiv">
+          <div className="highlightleft">
+            <img src={ira1} alt="" />
+          </div>
+          <div className="highlightright">
+            <ul>
+              <li>
+                12,000+ students trained across Andhra Pradesh,
+                Telangana,Karnataka, and Tamil Nadu
+              </li>
+              <br />
+              <li>
+                1,000+ candidates placed through 100+ institutional
+                collaborations with engineering, degree, and management colleges
+              </li>
+              <br />
+              <li>Presence in both urban and rural learning environments</li>
+              <br />
+              <li>
+                Successful implementation of multiple CSR-funded and
+                government-sponsored projects
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="highlightsdiv">
+          <div className="highlightright">
+            <ul>
+              <li>
+                12,000+ students trained across Andhra Pradesh,
+                Telangana,Karnataka, and Tamil Nadu
+              </li>
+              <br />
+              <li>
+                1,000+ candidates placed through 100+ institutional
+                collaborations with engineering, degree, and management colleges
+              </li>
+              <br />
+              <li>Presence in both urban and rural learning environments</li>
+              <br />
+              <li>
+                Successful implementation of multiple CSR-funded and
+                government-sponsored projects
+              </li>
+            </ul>
+          </div>
+          <div className="highlightleft">
+            <img src={ira2} alt="" />
+          </div>
+        </div>
       </section>
+      <section className="homepageCardSection2">
+        <FAQSection />
+      </section>
+      <setion className="homepageCardSection2">
+        <div className="headingSection">
+          <h2>Opportunity + Outcomes</h2>
+          <p>
+            Dynamic experiential opportunities plus high starting salaries add
+            up to significant outcomes for Illinois Tech graduates.
+          </p>
+        </div>
+        <div className="hashSection">
+          <FirstHash
+            title={"#1"}
+            para={"In Illinois for High Earnings and Economic Mobility"}
+          />
+          <FirstHash
+            title={"#2"}
+            para={"In Illinois for Best Salaries of Graduates"}
+          />
+          <FirstHash title={"#3"} para={"Best Value School"} />
+        </div>
+      </setion>
     </div>
   );
 };

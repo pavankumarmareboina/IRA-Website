@@ -43,7 +43,7 @@ const Achievements = () => {
             <div
               key={idx}
               ref={ref}
-              className="flex flex-col items-center justify-center bg-neutral-900 border border-neutral-800 rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 h-50 p-10 text-center achievementsSubContainer"
+              className="flex flex-col items-center justify-center border border-neutral-800 rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 h-50 p-10 text-center achievementsSubContainer cards"
             >
               {/* Animated Counter */}
               <h3 className="text-4xl font-extrabold text-green-400 mb-4">

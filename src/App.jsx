@@ -8,6 +8,7 @@ import Programs from "./pages/Programs";
 import Impact from "./pages/Impact";
 import Playschool from "./pages/Playschool";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [dataLoaded, setDataLoaded] = useState(false);
@@ -34,6 +35,9 @@ function App() {
           <Route path="/playschool" element={<Playschool />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+      </div>
+      <div >
+        <Footer />
       </div>
     </Router>
   );

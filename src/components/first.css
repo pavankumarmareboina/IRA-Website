@@ -1,0 +1,30 @@
+.FirstHashContainer{
+    /* border: 1px solid red; */
+      border: 1px solid #8080809f;
+    height: 300px;
+    width:280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.FirstHashContainer h1{
+    font-size: 72px;
+    /* border: 1px solid green; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.FirstHashContainer p{
+    font-size: 18px;
+    text-align: center;
+}
