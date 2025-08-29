@@ -1,0 +1,36 @@
+.KeyHighlightsContainer {
+  border: 2px solid #313131;
+  background-color: transparent;
+  border-radius: 31px;
+  /* border: 1px solid green; */
+  width: 199px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.KeyHighlightsPara {
+  margin-bottom: 0px !important;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+/* works after width max-width : 915px with min-width of 769px */
+@media (max-width: 1024px) and (orientation: portrait) {
+  /* Styles for portrait tablets */
+}
+@media (min-width: 769px) and (max-width: 1280px) and (orientation: landscape) {
+  .KeyHighlightsContainer {
+    height: 45px;
+    width: 140px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  .KeyHighlightsContainer {
+    scale: 0.75;
+  }
+}

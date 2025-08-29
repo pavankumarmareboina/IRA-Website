@@ -13,8 +13,8 @@ const FAQSection = () => {
       gsap.from(card, {
         scrollTrigger: {
           trigger: card,
-          start: "top 90%", // when top of card hits 90% of viewport
-          toggleActions: "play none none none", // only play once
+          start: "top 90%", 
+          toggleActions: "play none none none", 
         },
         opacity: 0,
         y: 50,

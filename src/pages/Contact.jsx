@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import ContactUs from "../components/contactus/ContactUs";
+import "./Contact.css"
 
 const Contact = () => {
   const [contact, setContact] = useState(null);
@@ -16,19 +18,11 @@ const Contact = () => {
   if (loading) return <div className="text-center py-10">Loading...</div>;
 
   return (
-    <div className="max-w-xl mx-auto py-10 px-4">
-      <h2 className="text-2xl font-bold mb-6 text-blue-700">Contact Us</h2>
-      <div className="bg-white rounded shadow p-6 space-y-4">
-        <div>
-          <span className="font-semibold text-blue-600">Email:</span> <a href={`mailto:${contact.email}`} className="text-blue-700 hover:underline">{contact.email}</a>
-        </div>
-        <div>
-          <span className="font-semibold text-blue-600">Phone:</span> <a href={`tel:${contact.phone}`} className="text-blue-700 hover:underline">{contact.phone}</a>
-        </div>
-        <div>
-          <span className="font-semibold text-blue-600">Address:</span> <span className="text-gray-700">{contact.address}</span>
-        </div>
-      </div>
+    <div className="contactContainer">
+        <h2 className="text-white text-3xl font-extrabold  text-center secondaryHeading">
+          Contact us
+        </h2>
+     <ContactUs/>
     </div>
   );
 };

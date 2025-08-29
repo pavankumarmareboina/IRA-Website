@@ -98,10 +98,12 @@
 }
 
 .highlightleft img{
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   border-radius: 20px;
   object-fit: cover;
+  margin: 20px;
+  border-radius: 20px;
 }
 
 .highlightright{

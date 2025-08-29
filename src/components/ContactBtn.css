@@ -1,0 +1,18 @@
+#SearchInputContainerFormContactUs{
+  position: relative;
+  width: 145px;
+  height: 53px;
+  border-radius: 46px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  background-color: #202128;
+  border: 1px solid #313131;
+  color: #E0E0E2;
+  transition: 0.2s ease-out;
+}
+
+#SearchInputContainerFormContactUs:hover{
+  background-color: #E0E0E2;
+  color: #313131;
+}
+
