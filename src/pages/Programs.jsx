@@ -1,12 +1,22 @@
 import React, { useEffect, useState } from "react";
-import communicationImg from "../assets/programsAssets/communication.png"
-import accountsImg from "../assets/programsAssets/accounts.png"
-import dashboardImg from "../assets/programsAssets/dashboard.png"
-import literacyImg from "../assets/programsAssets/Literacy.png"
+import communicationImg from "../assets/programsAssets/communication.png";
+import accountsImg from "../assets/programsAssets/accounts.png";
+import dashboardImg from "../assets/programsAssets/dashboard.png";
+import literacyImg from "../assets/programsAssets/Literacy.png";
 import steps from "../Data/Steps";
-import "./Programs.css"
+import "./Programs.css";
+import AboutCards from "../components/AboutCards";
+import targetImage from "../assets/programsAssets/target.png";
+import whatWeDoImage from "../assets/programsAssets/whatwedo.png";
+import uniqueImage from "../assets/programsAssets/Unique.png";
+import AboutCardsLeft from "../components/AboutCardsLeft";
 
-const imgCollection = [communicationImg, literacyImg, accountsImg, dashboardImg];
+const imgCollection = [
+  communicationImg,
+  literacyImg,
+  accountsImg,
+  dashboardImg,
+];
 const Programs = () => {
   const [programs, setPrograms] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -72,8 +82,11 @@ const Programs = () => {
         </div>
       </section>
       <div>
-        <h3 className="text-lg font-semibold mb-2">Highlights</h3>
-        <div className="grid gap-4 md:grid-cols-2">
+        {/* <h3 className="text-lg font-semibold mb-2">Highlights</h3> */}
+        <h2 className="text-white text-3xl font-extrabold  text-center secondaryHeading">
+          Highlights
+        </h2>
+        {/* <div className="grid gap-4 md:grid-cols-2">
           {programs.highlights.map((item) => (
             <div
               key={item.title}
@@ -83,6 +96,23 @@ const Programs = () => {
               <p className="text-gray-700">{item.description}</p>
             </div>
           ))}
+        </div> */}
+        <div className="AboutCardsAboutContainer">
+          <AboutCards
+            Image={targetImage}
+            title={"Tirupati Employment Drive (2023)"}
+            para={
+              "Successfully trained 2300+ students, facilitated 300+ job placements across diverse industries, empowering learners with in-demand skills and career opportunities"
+            }
+          />
+          <AboutCardsLeft
+            Image={whatWeDoImage}
+            title={"Mega Drive at JNTU Kakinada (2024)"}
+            para={
+              "Engaged 14,000+ learners through impactful programs and enabled 1360 successful placements, driving skill development and career growth at scale."
+            }
+          />
+          
         </div>
       </div>
     </div>

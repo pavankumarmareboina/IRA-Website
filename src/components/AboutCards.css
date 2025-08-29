@@ -1,0 +1,246 @@
+#AboutCardsContainer {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 300px;
+  width: 70%;
+  margin-bottom: 20px;
+  transition: 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  color: white;
+}
+
+#AboutCardsContainer:hover {
+  background-color: #131313;
+  border-radius: 22px;
+  border: 2px solid #313131;
+  cursor: pointer;
+  /* width: 72%; */
+}
+.AboutCardsContainerLeft {
+  width: 70%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 10% 0 5%;
+  text-align: left;
+}
+
+.AboutCardsContainerLeft h2 {
+  text-align: left;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  height: 40%;
+  width: 100%;
+}
+
+.AboutCardsContainerLeft p {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.AboutCardsContainerRight {
+  width: 30%;
+  height: 100%;
+  /* border: 5px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutCardsContainerRight img {
+  object-fit: cover;
+  width: 98%;
+  /* border: 1px solid red; */
+}
+
+/* works after width max-width : 915px with min-width of 769px */
+@media (max-width: 1024px) and (orientation: portrait) {
+  #AboutCardsContainer {
+    /* border: 1px solid yellow; */
+    /* overflow: hidden; */
+    height: auto;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .AboutCardsContainerLeft {
+    /* border: 1px solid blue; */
+    padding: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .AboutCardsContainerLeft p {
+    font-size: 1rem;
+    overflow: hidden;
+  }
+
+  .AboutCardsContainerRight {
+    padding: 0;
+    overflow: auto;
+    /* height: 100%; */
+    /* width: 30%; */
+    display: none;
+    /* border: 1px solid red; */
+  }
+
+  .AboutCardsContainerRight img {
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    /* border: 1px solid green; */
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+  }
+
+  #AboutCardsContainer:hover {
+    font-family: "roboto" sans-serif;
+    background-color: #131313;
+    border-radius: 22px;
+    border: 2px solid #313131;
+    cursor: pointer;
+    /* height: 305px; */
+    width: 90.5%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) and (orientation: landscape) {
+  #AboutCardsContainer {
+    /* border: 1px solid yellow; */
+    /* overflow: hidden; */
+    height: 250px;
+    width: 90vw;
+  }
+
+  .AboutCardsContainerLeft {
+    /* border: 1px solid blue; */
+    padding: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 70%;
+  }
+
+  .AboutCardsContainerLeft p {
+    font-size: 0.9rem;
+    overflow: hidden;
+  }
+
+  .AboutCardsContainerRight {
+    padding: 0;
+    overflow: auto;
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid red; */
+  }
+
+  .AboutCardsContainerRight img {
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    /* border: 1px solid green; */
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+  }
+
+  #AboutCardsContainer:hover {
+    font-family: "roboto" sans-serif;
+    background-color: #131313;
+    border-radius: 22px;
+    border: 2px solid #313131;
+    cursor: pointer;
+    /* height: 305px; */
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  #AboutCardsContainer {
+    /* border: 1px solid yellow; */
+    /* overflow: hidden; */
+    height: 200px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .AboutCardsContainerLeft {
+    /* border: 1px solid blue; */
+    padding: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .AboutCardsContainerLeft p {
+    font-size: 0.9rem;
+    overflow: hidden;
+  }
+
+  .AboutCardsContainerRight {
+    padding: 0;
+    overflow: auto;
+    height: 100%;
+    width: 30%;
+    display: none;
+    /* border: 1px solid red; */
+  }
+
+  .AboutCardsContainerRight img {
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    /* border: 1px solid green; */
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+  }
+
+  #AboutCardsContainer:hover {
+    font-family: "roboto" sans-serif;
+    background-color: #131313;
+    border-radius: 22px;
+    border: 2px solid #313131;
+    cursor: pointer;
+    /* height: 305px; */
+    width: 90%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .AboutCardsAboutContainer{
+    margin-bottom: 20%;
+  }
+
+  #AboutMain{
+    height: auto;
+    width: 100vw;
+  }
+
+  .AboutFirstParaAboutContainer1{
+    margin-top: 10px;
+  }
+
+  .AboutCardsContainerLeft p {
+    overflow: hidden;
+  }
+}
