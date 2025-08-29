@@ -3,7 +3,7 @@ import React from "react";
 import "./WhatsAppCard.css"
 
 export default function WhatsAppCard() {
-  const phoneNumber = "919876543210"; // your WhatsApp number (with country code)
+  const phoneNumber = "+918179132255"; // your WhatsApp number (with country code)
   const whatsappLink = `https://wa.me/${phoneNumber}`;
 
   return (

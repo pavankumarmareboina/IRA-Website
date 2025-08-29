@@ -4,8 +4,7 @@
     { "name": "ADMISSIONS", "path": "/admissions" },
     { "name": "PROGRAMS", "path": "/programs" },
     { "name": "TUTION FEE", "path": "/tutionfee" },
-    { "name": "ABOUT", "path": "/about" },
-    { "name": "MANAGEMENT", "path": "/management" }
+    { "name": "ABOUT", "path": "/about" }
   ],
   "about": {
     "title": "IRA Skill Varsity",

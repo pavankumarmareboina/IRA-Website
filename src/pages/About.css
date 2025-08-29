@@ -1,0 +1,23 @@
+.AboutContainer {
+  padding: 0 2%;
+  margin-top: 5%;
+}
+
+.highlightright {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.highlightright p {
+  font-size: 18px;
+}
+
+.highlightright h2{
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: left;
+    width: 100%;
+}

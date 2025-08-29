@@ -34,15 +34,7 @@ const Programs = () => {
 
   return (
     <div className=" mx-auto py-10 px-4 bg-black programsMainContainer">
-      {/* <h2 className="text-2xl font-bold mb-6 text-blue-700">Programs</h2>
-      <div className="mb-8">
-        <h3 className="text-lg font-semibold mb-2">Focus Areas</h3>
-        <ul className="list-disc pl-6 space-y-1">
-          {programs.focusAreas.map((area) => (
-            <li key={area} className="text-gray-700">{area}</li>
-          ))}
-        </ul>
-      </div> */}
+
       <section className="homepageCardSection py-16 px-6 gap-7">
         <h2 className="text-white text-3xl font-extrabold  text-center secondaryHeading">
           Focus Areas
@@ -69,9 +61,9 @@ const Programs = () => {
                   {/* <h3 className="text-orange-400 font-semibold text-base mb-2">
                     {item}
                   </h3> */}
-                  <h2 className="text-2xl font-bold text-white tracking-wide  mb-3">
+                  <h3 className="text-2xl font-bold text-white tracking-wide  mb-3">
                     {item}
-                  </h2>
+                  </h3>
                   {/* <p className="text-gray-300 text-base leading-relaxed">
                     {item}
                   </p> */}
@@ -81,7 +73,7 @@ const Programs = () => {
           ))}
         </div>
       </section>
-      <div>
+      <div className="homepageCardSection">
         {/* <h3 className="text-lg font-semibold mb-2">Highlights</h3> */}
         <h2 className="text-white text-3xl font-extrabold  text-center secondaryHeading">
           Highlights

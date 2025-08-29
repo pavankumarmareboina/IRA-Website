@@ -1,0 +1,55 @@
+.DevelopersPageMainContainer{
+  /* border: 1px solid red; */
+  width: 100vw;
+  height:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5% 0;
+}
+
+.DevelopersPageMainContainer h2{
+  margin-bottom: 0;
+}
+
+.MainDevelopersCards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+  width: 80%;
+  margin-top: 5%;
+}
+
+
+/* works after width max-width : 915px with min-width of 769px */
+@media (max-width: 1024px) and (orientation: portrait) {
+  .DevelopersPageMainContainer{
+    /* border: 1px solid red; */
+  }
+  }
+  @media (min-width: 769px) and (max-width: 1280px) and (orientation: landscape) {
+  .DevelopersPageMainContainer{
+    /* border: 1px solid green; */
+  }
+  }
+  
+  @media only screen and (max-width: 768px) and (orientation: portrait) {
+  .DevelopersPageMainContainer{
+    /* border: 1px solid blue; */
+  
+  }
+  /* .DevelopersPageMainContainer h2{
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  } */
+  
+  }

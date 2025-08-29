@@ -15,7 +15,6 @@ const navLinks = [
   { name: "PROGRAMS", path: "/programs" },
   { name: "TUTION FEE", path: "/tutionfee" },
   { name: "ABOUT", path: "/about" },
-  { name: "MANAGEMENT", path: "/management" },
 ];
 
 const Footer = () => {

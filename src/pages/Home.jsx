@@ -12,6 +12,7 @@ import ira1 from "../assets/ira1.jpeg";
 import ira2 from "../assets/ira2.jpeg";
 import FAQSection from "../components/FAQSection/FAQSection";
 import FirstHash from "../components/firstHash";
+import WhatsAppIconFixed from "../assets/whatsAppIconFixed/WhatsAppIconFixed";
 // import MagicBento from "../components/MagicBento";
 // import SpotlightCard from "../components/ui/SpotlightCard/SpotlightCard";
 
@@ -164,6 +165,7 @@ const Home = () => {
           <FirstHash title={"#3"} para={"Best Value School"} />
         </div>
       </setion>
+      <WhatsAppIconFixed />
     </div>
   );
 };

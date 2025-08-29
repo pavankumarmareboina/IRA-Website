@@ -6,7 +6,7 @@ const AboutCards = ({title, para, Image}) => {
   return (
     <div id='AboutCardsContainer'>
       <div className="AboutCardsContainerLeft">
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <p>{para}</p>
       </div>
       <div className="AboutCardsContainerRight">
