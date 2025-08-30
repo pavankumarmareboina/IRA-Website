@@ -24,37 +24,38 @@ const FAQSection = () => {
     });
   }, []);
   const websiteFAQs = [
-    {
-      question: "What type of websites do you build?",
-      answer:
-        "I specialize in business websites, e-commerce platforms, personal portfolios, blogs, and SaaS-based applications.",
-    },
-    {
-      question: "Will my website be mobile-friendly?",
-      answer:
-        "Yes, I ensure that all websites are fully responsive and work on all devices (mobile, tablet, and desktop).",
-    },
-    {
-      question: "Can you redesign my existing website?",
-      answer:
-        "Yes, I can improve the design, functionality, and performance of your current website.",
-    },
-    {
-      question: "Will I be able to update my website myself?",
-      answer:
-        "If you prefer, I can develop the website using a CMS (like WordPress) or a no-code tool so you can update content without coding knowledge.",
-    },
-    {
-      question: "Do you provide hosting and domain services?",
-      answer:
-        "I can guide you in purchasing hosting and domain services, but I do not provide them directly.",
-    },
-    {
-      question: "Will my website be SEO-friendly?",
-      answer:
-        "Yes, I follow SEO best practices to help your website rank better on search engines.",
-    },
-  ];
+  {
+    question: "What is IRA Skill Varsity?",
+    answer:
+      "IRA Skill Varsity is an education and career platform that bridges the gap between learning and employment through practical training.",
+  },
+  {
+    question: "Who leads IRA Skill Varsity?",
+    answer:
+      "It is led by Pasupuleti Saraswathi, Aneel Laxman Ganji, and Natarajan Kandaswamy, who bring expertise in education, media, and operations.",
+  },
+  {
+    question: "What programs are offered?",
+    answer:
+      "IRA offers training in Spoken English, Digital Literacy, GST & Tally, Data Analytics, Design Thinking, CRM Tools, and Career Readiness.",
+  },
+  {
+    question: "What are IRA’s major achievements?",
+    answer:
+      "IRA trained 12,000+ students and placed 1,000+ candidates through drives like Tirupati Employment Drive, JNTU Kakinada Mega Drive, and Naan Mudhalvan.",
+  },
+  {
+    question: "Does IRA also focus on early education?",
+    answer:
+      "Yes, IRA runs The Little Hoots Playschool in Hyderabad, offering child-centered learning with creative and eco-friendly practices.",
+  },
+  {
+    question: "How are the programs delivered?",
+    answer:
+      "Programs are delivered in-person, online, and hybrid formats with assessments, projects, and placement support.",
+  },
+];
+
   return (
     <div className="FAQSectionContainer">
       {/* <MainTitle content={""}/> */}

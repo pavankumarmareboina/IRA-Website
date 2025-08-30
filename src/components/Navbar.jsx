@@ -5,9 +5,8 @@
 // // import Data from "../../public/data.json";
 // // import { IoSearchSharp } from "react-icons/io5";
 
-
 // // const Navbar = () => {
-  
+
 // //   return (
 // //     <nav className="navbar">
 // //       <div className="logo">
@@ -31,7 +30,6 @@
 // // };
 
 // // export default Navbar;
-
 
 // import React, { useState, useEffect } from "react";
 // import { Link, useLocation } from "react-router-dom";
@@ -110,8 +108,6 @@
 // };
 
 // export default Navbar;
-
-
 
 import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";

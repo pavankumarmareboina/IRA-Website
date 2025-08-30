@@ -36,7 +36,6 @@
   justify-content: flex-end;
   flex-direction: column;
   gap: 10px;
-  
 }
 
 .slideMainLeftContainer h2 {
@@ -81,39 +80,77 @@
   justify-content: space-evenly;
   flex-direction: row;
   /* border: 1px solid red; */
-    margin-bottom: 5px;
-    gap: 30px;
+  margin-bottom: 5px;
+  gap: 30px;
 }
-
-
 
 @media screen and (max-width: 768px) {
- .slideMainLeftContainer p{
-  display: none;
- }
+  .slideMainLeftContainer p {
+    display: none;
+  }
 
-.slideMainContainer{
-  height: 40vh;
-  /* width: 100%; */
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  .slideMainContainer {
+    height: 40vh;
+    /* width: 100%; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 46px 5px;
+  }
+
+  .slideSubMainContainer {
+    padding: 15px;
+  }
+
+  .slideMainLeftContainer {
+    /* border: 1px solid green; */
+    width: 100%;
+  }
+
+  .slideMainLeftContainer h2 {
+    font-size: 18px;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+
+  .slideMainLeftContainer h3 {
+    font-size: 14px;
+    /* border: 1px solid red; */
+  }
 }
 
-.slideMainLeftContainer{
-  border: 1px solid green;
-  width: 100%;
-}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .slideMainLeftContainer p {
+    display: none;
+    /* border: 1px solid red; */
+  }
 
-.slideMainLeftContainer h2{
-  font-size: 18px;
-  width: 100%;
-  border: 1px solid red;
-}
+  .slideMainContainer {
+    height: 40vh;
+    /* width: 100%; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 46px 5px;
+  }
 
-.slideMainLeftContainer h3{
-  font-size: 14px;
-  border: 1px solid red;
-}
+  .slideSubMainContainer {
+    padding: 15px;
+  }
 
+  .slideMainLeftContainer {
+    /* border: 1px solid green; */
+    width: 100%;
+  }
+
+  .slideMainLeftContainer h2 {
+    font-size: 18px;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+
+  .slideMainLeftContainer h3 {
+    font-size: 14px;
+    /* border: 1px solid red; */
+  }
 }

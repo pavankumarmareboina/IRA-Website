@@ -28,35 +28,35 @@ const Footer = () => {
           </div>
           <div className="footerleftbottomContainer">
             <p>Email: info@example.com</p>
-              <p>Phone: +91 98765 43210</p>
+            <p>Phone: +91 98765 43210</p>
           </div>
         </div>
         <div className="footerrightContainer">
           <div className="footerrightupperContainer">
             <ul>
               {navLinks.map((link, i) => (
-                <li key={i} className="text-white-700 hover:text-green-600 hover:underline p-0.5 m-1 font-medium link">
-                  <Link to={link.path}>
-                    {link.name}
-                  </Link>
+                <li
+                  key={i}
+                  className="text-white-700 hover:text-green-600 hover:underline p-0.5 m-1 font-medium link"
+                >
+                  <Link to={link.path}>{link.name}</Link>
                 </li>
               ))}
             </ul>
-          </div>    
+          </div>
           <div className="footerrightbottomContainer">
-
-              <a href="#" className="hover:text-gray-400">
-                <FaFacebookF />
-              </a>
-              <a href="#" className="hover:text-gray-400">
-                <FaInstagram />
-              </a>
-              <a href="#" className="hover:text-gray-400">
-                <FaTwitter />
-              </a>
-              <a href="#" className="hover:text-gray-400">
-                <FaLinkedinIn />
-              </a>
+            <a href="#" className="hover:text-gray-400">
+              <FaFacebookF />
+            </a>
+            <a href="#" className="hover:text-gray-400">
+              <FaInstagram />
+            </a>
+            <a href="#" className="hover:text-gray-400">
+              <FaTwitter />
+            </a>
+            <a href="#" className="hover:text-gray-400">
+              <FaLinkedinIn />
+            </a>
           </div>
         </div>
       </div>

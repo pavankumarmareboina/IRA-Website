@@ -24,7 +24,7 @@ function App() {
 
   return (
     <Router>
-      <div >
+      <div className="appNavbar">
         <Navbar />
       </div>
       <div className=" bg-black">

@@ -5,15 +5,15 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   padding: 0 5%;
   border-bottom: 1px solid #8080809f;
-  /* position: sticky; */
+
 }
 
 .logo {
-  width: 30%;
+  width: 50%;
   height: 100%;
   /* border: 1px solid red; */
   display: flex;
@@ -36,8 +36,10 @@
 }
 
 .logo h1 {
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: bold;
+  /* border: 1px solid red; */
+  width: 100%;
 }
 
 .navlinks {
@@ -122,7 +124,7 @@
   font-weight: bold;
 }
 
-@media (max-width: 915px) {
+@media screen and (max-width: 768px)  {
   .logo-text {
     display: none; /* hide text in mobile */
   }
@@ -139,8 +141,8 @@
     margin-left: auto; /* push to right */
   }
 
- .logo-img {
-  width: 70px;
-  height: 70px;
+ .logo{
+  width: 100px;
+  height: 100px;
 }
 }

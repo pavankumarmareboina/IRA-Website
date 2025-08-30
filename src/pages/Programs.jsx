@@ -78,17 +78,7 @@ const Programs = () => {
         <h2 className="text-white text-3xl font-extrabold  text-center secondaryHeading">
           Highlights
         </h2>
-        {/* <div className="grid gap-4 md:grid-cols-2">
-          {programs.highlights.map((item) => (
-            <div
-              key={item.title}
-              className="bg-white rounded shadow p-4 hover:shadow-lg transition-shadow"
-            >
-              <h4 className="font-bold text-blue-600 mb-1">{item.title}</h4>
-              <p className="text-gray-700">{item.description}</p>
-            </div>
-          ))}
-        </div> */}
+
         <div className="AboutCardsAboutContainer">
           <AboutCards
             Image={targetImage}

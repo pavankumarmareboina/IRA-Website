@@ -5,3 +5,10 @@
     justify-content: space-around;
     flex-direction: column;
 }
+
+@media screen and (max-width: 768px) {
+    .whatsappcard{
+        /* border: 1px solid red; */
+        width: 99%;
+    }
+}

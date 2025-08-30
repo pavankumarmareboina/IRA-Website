@@ -1,6 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa";
 import React from "react";
-import "./WhatsAppCard.css"
+import "./WhatsAppCard.css";
 
 export default function WhatsAppCard() {
   const phoneNumber = "+918179132255"; // your WhatsApp number (with country code)

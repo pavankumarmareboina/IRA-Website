@@ -120,20 +120,23 @@ const Home = () => {
           <div className="highlightright">
             <ul>
               <li>
-                12,000+ students trained across Andhra Pradesh,
-                Telangana,Karnataka, and Tamil Nadu
+                Conducted mega placement drives like JNTU Kakinada, engaging
+                14,000+ students with 1,360 successful placements
               </li>
               <br />
               <li>
-                1,000+ candidates placed through 100+ institutional
-                collaborations with engineering, degree, and management colleges
+                Partnered with Tamil Nadu’s Naan Mudhalvan program, training
+                9,000+ students across 58 institutions
               </li>
               <br />
-              <li>Presence in both urban and rural learning environments</li>
+              <li>
+                Launched The Little Hoots Playschool in Hyderabad, focusing on
+                child-centered, eco-friendly early education
+              </li>
               <br />
               <li>
-                Successful implementation of multiple CSR-funded and
-                government-sponsored projects
+                Delivered specialized skilling programs with Infosys Foundation
+                and EduBridge in GST, CRM tools, and Business Analytics
               </li>
             </ul>
           </div>
@@ -147,7 +150,9 @@ const Home = () => {
       </section>
       <setion className="homepageCardSection2">
         <div className="headingSection">
-          <h2>Opportunity + Outcomes</h2>
+          <h2 className="text-white text-3xl font-extrabold  text-center secondaryHeading">
+            Opportunity + Outcomes
+          </h2>
           <p>
             Dynamic experiential opportunities plus high starting salaries add
             up to significant outcomes for Illinois Tech graduates.

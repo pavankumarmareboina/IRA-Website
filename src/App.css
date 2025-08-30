@@ -1,6 +1,14 @@
-body{
-   font-family: "Poppins", sans-serif;
-   font-weight: normal;
-   background-color: #0000 !important;
-   scroll-behavior: smooth;
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  background-color: #0000 !important;
+  scroll-behavior: smooth;
 }
+
+.appNavbar {
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+}
+
+
