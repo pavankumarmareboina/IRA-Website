@@ -24,13 +24,15 @@
 }
 
 .logo img {
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
   width: auto;
   object-fit: contain;
   margin-right: 10px;
+  border: 1px solid red;
+  height: 100%;
 }
 
 .logo h1 {
@@ -53,4 +55,92 @@
 
 .navlinks .link {
   font-weight: 500;
+}
+
+
+/* mobile menu container */
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  right: -100%; /* hidden */
+  width: 70%;
+  height: 100vh;
+  background: black;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.mobileMenu.open {
+  right: 0;
+}
+
+.mobileMenu ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.mobileMenu li {
+  margin: 20px 0;
+}
+
+.mobileMenu a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.mobileMenu a:hover {
+  color: #16a34a; /* green-600 */
+}
+
+.hamburger {
+  cursor: pointer;
+  z-index: 1000;
+}
+
+
+/* Logo container */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Logo image stays visible */
+
+
+/* Text visible only on desktop */
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 915px) {
+  .logo-text {
+    display: none; /* hide text in mobile */
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* logo left, hamburger right */
+    align-items: center;
+    padding: 10px 20px;
+    /* height: 80px; */
+  }
+
+  .hamburger {
+    margin-left: auto; /* push to right */
+  }
+
+ .logo-img {
+  width: 70px;
+  height: 70px;
+}
 }

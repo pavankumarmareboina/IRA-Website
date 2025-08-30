@@ -84,3 +84,11 @@
     margin-bottom: 5px;
     gap: 30px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+ .slideMainLeftContainer p{
+  display: none;
+ }
+}
