@@ -18,7 +18,7 @@ const ContactUs = () => {
 
   // Add your Google Apps Script URL here
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbxODzz7Y0AfEftyVsZeEi3muGXfiGMzsgayzOA9EfHdDijerx0iO-xJA34oUZB9In0/exec"; // Replace with your script URL
+    "https://script.google.com/macros/s/AKfycbwQ8z4RkSw_PEstuVZC84BuzBV2Z0JNKFvEc4ZuQFMDAL9NJRGIC8kY1CiUJ10DPg1X/exec"; // Replace with your script URL
 
   // Handle input changes and update form state
   const handleInputChange = (e) => {
