@@ -163,3 +163,20 @@
     border-bottom: 1px solid #8080809f;
     background-color: black;
 }
+
+@media screen and (max-width: 768px) {
+
+
+
+.achievementsContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.secondaryHeading{
+  font-size: 24px !important;
+}
+}

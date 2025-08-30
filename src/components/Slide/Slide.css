@@ -91,4 +91,29 @@
  .slideMainLeftContainer p{
   display: none;
  }
+
+.slideMainContainer{
+  height: 40vh;
+  /* width: 100%; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.slideMainLeftContainer{
+  border: 1px solid green;
+  width: 100%;
+}
+
+.slideMainLeftContainer h2{
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.slideMainLeftContainer h3{
+  font-size: 14px;
+  border: 1px solid red;
+}
+
 }

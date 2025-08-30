@@ -27,7 +27,7 @@ const Achievements = () => {
   ];
 
   return (
-    <section className="w-full bg-black py-20 px-6">
+    <section className="w-full bg-black py-20 px-6 achievementMainContainer">
       <h2 className="text-white text-3xl font-extrabold text-center secondaryHeading">
         Achievements & Success Story
       </h2>
