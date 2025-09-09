@@ -27,8 +27,8 @@ const Footer = () => {
             <h1>IRA Skill Varsity</h1>
           </div>
           <div className="footerleftbottomContainer">
-            <p>Email: info@example.com</p>
-            <p>Phone: +91 98765 43210</p>
+            <p>Email: pavankumarmareboina@gmail.com.com</p>
+            <p>Phone: +91 9182487340</p>
           </div>
         </div>
         <div className="footerrightContainer">
